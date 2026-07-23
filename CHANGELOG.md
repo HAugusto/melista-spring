@@ -5,11 +5,42 @@ Todas as mudanças relevantes deste projeto serão documentadas neste arquivo.
 O formato segue as recomendações do [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/)  
 e o projeto adota o [Versionamento Semântico (SemVer)](https://semver.org/lang/pt-BR/).
 
+
 ## [Unreleased]
 
 *(alterações em andamento)*
 
+## [0.0.2] - 2026-07-22
+
+### Adicionado
+
+- Script de geração da estrutura de árvore `tree-generator.sh` para documentação.
+- Documento de referência da árvore do projeto em `docs/tree.md`.
+- Estrutura inicial de organização do projeto no namespace `com.melista.server`.
+
+### Corrigido
+
+- Reorganização do `/src` para manter a estrutura do repositório consistente com a nova base do projeto.
+
+### Removido
+
+- Arquivos legados da estrutura antiga em `com.personal.server`, substituídos pela nova organização do projeto.
+
+### Alterado
+
+- Reorganização dos pacotes e nomes de namespace do projeto, migrando a base de `com.personal.server` para `com.melista.server`.
+- Ajustes na árvore de documentação para refletir a estrutura atual do repositório.
+
+### Deprecated
+
+- (ainda não aplicável nesta versão)
+
+
 ## [0.0.1] - 2026-07-22
+
+## [Unreleased]
+
+- (ainda não aplicável nesta versão)
 
 ### Adicionado
 
@@ -19,7 +50,7 @@ e o projeto adota o [Versionamento Semântico (SemVer)](https://semver.org/lang/
 - Arquitetura base de pacotes organizada em `com.personal.server`.
 - Configuração de build e execução utilizando Maven Wrapper (`mvnw`/`mvnw.cmd`).
 - Arquivos de containerização com `Dockerfile` e `docker-compose.yml`.
-- Estrutura inicial de documentação com `README.md`, `HELP.md` e este `CHANGELOG.md`.
+- Estrutura inicial de documentação com `README.md`, `HELP.md` e `CHANGELOG.md`.
 
 ### Corrigido
 

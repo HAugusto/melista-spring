@@ -1,4 +1,4 @@
-package com.personal.server;
+package com.melista.server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
